@@ -1,15 +1,11 @@
 def main():
-    """
-    ########################################
-    Code Your Program here
-    ########################################
-    """
-    total = 0
 
-    ########################################
-    # Do not delete the return statement
-    ########################################
-    return total
+    i = 0; total = 0
+    while(i<5):
+        num = int(input())
+        total += num
+        i += 1
+    print(total)
 
 
 if __name__ == '__main__':
